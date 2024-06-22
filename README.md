@@ -5,6 +5,8 @@
 
 -----
 
+This is my first package! It contains operations for vectors in Python and it also has a small benchmarking set up. 
+
 ## Table of Contents
 
 - [Installation](#installation)

@@ -1,6 +1,4 @@
-from benchmarks.addition import AdditionBenchmark
-from benchmarks.subtraction import SubtractionBenchmark
-from vectorpython_frameworks import Timer
+from vecpy_frameworks import Timer
 import inspect
 
 
