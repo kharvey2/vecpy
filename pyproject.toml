@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 vecpy = "vecpy.main:main"
 
 [project]
-name = "vecpy"
+name = "VectorPython"
 dynamic = ["version"]
 description = ''
 readme = "README.md"
