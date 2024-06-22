@@ -49,7 +49,7 @@ source_pkgs = ["vecpy", "tests"]
 branch = true
 parallel = true
 omit = [
-  "vecpy/__about__.py",
+  "vectorpython/__about__.py",
 ]
 
 [tool.coverage.paths]
