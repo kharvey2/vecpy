@@ -1,4 +1,4 @@
-class VecpyBenchmark(object):
+class vectorpythonBenchmark(object):
     def process():
         pass
     def plot():

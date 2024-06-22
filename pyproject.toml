@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project.scripts]
-vecpy = "vecpy.main:main"
+vectorpython = "vectorpython.main:main"
 
 [project]
 name = "VectorPython"
@@ -30,22 +30,22 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-Documentation = "https://github.com/kharvey2/vecpy#readme"
-Issues = "https://github.com/kharvey2/vecpy/issues"
-Source = "https://github.com/kharvey2/vecpy"
+Documentation = "https://github.com/kharvey2/vectorpython#readme"
+Issues = "https://github.com/kharvey2/vectorpython/issues"
+Source = "https://github.com/kharvey2/vectorpython"
 
 [tool.hatch.version]
-path = "vecpy/__about__.py"
+path = "vectorpython/__about__.py"
 
 [tool.hatch.envs.types]
 extra-dependencies = [
   "mypy>=1.0.0",
 ]
 [tool.hatch.envs.types.scripts]
-check = "mypy --install-types --non-interactive {args:vecpy tests}"
+check = "mypy --install-types --non-interactive {args:vectorpython tests}"
 
 [tool.coverage.run]
-source_pkgs = ["vecpy", "tests"]
+source_pkgs = ["vectorpython", "tests"]
 branch = true
 parallel = true
 omit = [
@@ -53,8 +53,8 @@ omit = [
 ]
 
 [tool.coverage.paths]
-vecpy = ["vecpy", "*/vecpy/vecpy"]
-tests = ["tests", "*/vecpy/tests"]
+vectorpython = ["vectorpython", "*/vectorpython/vectorpython"]
+tests = ["tests", "*/vectorpython/tests"]
 
 [tool.coverage.report]
 exclude_lines = [

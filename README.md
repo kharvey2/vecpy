@@ -1,7 +1,7 @@
-# VecPy
+# vectorpython
 
-[![PyPI - Version](https://img.shields.io/pypi/v/vecpy.svg)](https://pypi.org/project/vecpy)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/vecpy.svg)](https://pypi.org/project/vecpy)
+[![PyPI - Version](https://img.shields.io/pypi/v/vectorpython.svg)](https://pypi.org/project/vectorpython)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/vectorpython.svg)](https://pypi.org/project/vectorpython)
 
 -----
 
@@ -13,9 +13,9 @@
 ## Installation
 
 ```console
-pip install vecpy
+pip install vectorpython
 ```
 
 ## License
 
-`vecpy` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
+`vectorpython` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.

@@ -4,7 +4,7 @@ from benchmarks.subtraction import SubtractionBenchmark
 from test import run_bench
 
 def main():
-    parser = argparse.ArgumentParser(description="VecPy Benchmark Runner")
+    parser = argparse.ArgumentParser(description="vectorpython Benchmark Runner")
     subparsers = parser.add_subparsers(dest='command', help='Commands')
 
     all_parser = subparsers.add_parser('benchmarks', help='Run all benchmarks')

@@ -1,7 +1,7 @@
-from vecpy_frameworks import VecpyBenchmark
-from vecpy import add_vectors
+from vectorpython_frameworks import vectorpythonBenchmark
+from vectorpython import add_vectors
 
-class AdditionBenchmark(VecpyBenchmark):
+class AdditionBenchmark(vectorpythonBenchmark):
     
     def time_empty(self):
         add_vectors([], [])

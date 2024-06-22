@@ -1,7 +1,7 @@
-from vecpy_frameworks import VecpyBenchmark
-from vecpy import sub_vectors
+from vectorpython_frameworks import vectorpythonBenchmark
+from vectorpython import sub_vectors
 
-class SubtractionBenchmark(VecpyBenchmark):
+class SubtractionBenchmark(vectorpythonBenchmark):
     
     def time_empty(self):
         sub_vectors([], [])
